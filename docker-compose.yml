@@ -1,0 +1,10 @@
+services:
+  shorts-worker:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Syncs your local folder with the container so you see files appear in 'processed'
+      - .:/app
+    env_file:
+      - .env  # Reads your existing .env file

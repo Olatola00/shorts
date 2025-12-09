@@ -1,0 +1,8 @@
+.env
+__pycache__/
+downloads/
+processed/
+test scripts.txt
+helps.txt
+test.py
+features_ideas.txt
